@@ -22,8 +22,7 @@ under `scripts/`; engineering-only surface is quarantined under `engineering/`.
 
 > **Provenance.** This is a sanitized public release of an internal toolkit. Sprint planning history,
 > worklogs and all case-derived fixtures were removed; every identifier in this repo is a documented
-> placeholder (`example.com`, `contoso.onmicrosoft.com`, RFC 5737 IPs, all-zero GUIDs). See
-> [`PLAN.md`](PLAN.md) for the sanitization contract.
+> placeholder (`example.com`, `contoso.onmicrosoft.com`, RFC 5737 IPs, all-zero GUIDs).
 
 ---
 
@@ -203,7 +202,7 @@ tool's legacy default.
 
 ```
 soc-investigation-toolkit/
-├── README.md  QUICKSTART.md  ONBOARDING.md  PLAN.md
+├── README.md  QUICKSTART.md  ONBOARDING.md
 ├── .github/workflows/ci.yml            # Ubuntu / macOS / Windows matrix, SHA-pinned actions
 ├── .pre-commit-config.yaml             # Opt-in hygiene gate
 ├── docs/                               # Analyst onboarding, Windows guide, enterprise setup, workflows map
