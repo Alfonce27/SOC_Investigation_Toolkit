@@ -116,8 +116,8 @@ Multi-provider skills need `OPENAI_API_KEY` / `GEMINI_API_KEY` in addition to Cl
 ## Quick start (5 minutes)
 
 ```bash
-git clone https://github.com/<your-org>/soc-investigation-toolkit.git
-cd soc-investigation-toolkit
+git clone https://github.com/Alfonce27/SOC_Investigation_Toolkit.git
+cd SOC_Investigation_Toolkit
 
 bash scripts/setup.sh            # macOS / Linux
 # .\scripts\setup.ps1            # Windows PowerShell (no WSL required)
@@ -201,7 +201,7 @@ tool's legacy default.
 ## Repo layout
 
 ```
-soc-investigation-toolkit/
+SOC_Investigation_Toolkit/
 ├── README.md  QUICKSTART.md  ONBOARDING.md
 ├── .github/workflows/ci.yml            # Ubuntu / macOS / Windows matrix, SHA-pinned actions
 ├── .pre-commit-config.yaml             # Opt-in hygiene gate
