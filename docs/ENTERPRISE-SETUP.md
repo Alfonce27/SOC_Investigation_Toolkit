@@ -1,7 +1,7 @@
 # Enterprise Setup — Configuring and Engineering the SOC Investigation Toolkit
 
 This guide is for the platform/SecOps engineer standing the toolkit up for a team, not for an
-individual analyst's first run (that is [`ANALYST-ONBOARDING.md`](ANALYST-ONBOARDING.md)). It walks
+individual analyst's first run. It walks
 identity, least-privilege API clients, secrets, source control, workstation baseline, bootstrap,
 validation, operations and governance, in the order dependencies require.
 
